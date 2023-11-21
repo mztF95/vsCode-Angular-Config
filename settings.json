@@ -1,0 +1,61 @@
+{
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'Fira Code', Monaco, 'Courier New', monospace",
+    "editor.lineHeight": 2,
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Monokai",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "entity.name.tag.html.ng.ng-container",
+				    "entity.name.tag.html.ng.ng-template",
+                    "entity.name.tag.html.ng.router-outlet",
+                ],
+                "settings": {
+                    "foreground": "#fe495f",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.tag.html.ng.mat-paginator",
+                    "entity.name.tag.html.ng.mat-menu",
+                    "entity.name.tag.html.ng.mat-icon",
+                    "entity.name.tag.html.ng.mat-drawer",
+                    "entity.name.tag.html.ng.mat-drawer-content",
+                    "entity.name.tag.html.ng.mat-drawer-container",
+                    "entity.name.tag.html.ng.mat-progress-bar",
+                    "entity.name.tag.html.ng.mat-select",
+                    "entity.name.tag.html.ng.mat-option",
+                    "entity.name.tag.html.ng.mat-form",
+                    "entity.name.tag.html.ng.mat-form-field",
+                    "entity.name.tag.html.ng.mat-label",
+                    "entity.name.tag.html.ng.mat-date-range-input",
+                    "entity.name.tag.html.ng.mat-datepicker-toggle",
+                    "entity.name.tag.html.ng.mat-date-range-picker",
+                    "entity.name.tag.html.ng.mat-datepicker",
+                    "entity.name.tag.html.ng.mat-slide-toggle",
+                    "entity.name.tag.html.ng.mat-error",
+                ],
+                "settings": {
+                    "foreground": "#ff0092",
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.definition.tag",
+                    "html-template.ng.expression.operator.comparison",
+                    "text.html.angular",
+                    "text.html.angular variable.other.readwrite"
+                ],
+                "settings": {
+                    "foreground": "#f0f0d8",
+                }
+            }
+        ]
+    }
+    
+}
